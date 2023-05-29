@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_MAUI.Vehiculos"
+             Title="Vehiculos">
+    <VerticalStackLayout
+        Spacing="6">
+        <Label 
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Bienvenidos a "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+
+        <Label 
+            Text="Vehiculos UMG"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Nuestros carros disponibles son lo siguentes:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label 
+            Text="Automovil:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" />
+        <Button x:Name="Automovil" Text="Caracteristicas"
+                Clicked="Automovil_Clicked"/>
+        <Button x:Name="InfAutomovil" Text="Informacion"
+                Clicked="infautomovil_Clicked"/>
+
+        <Label 
+            Text="Convertible:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" />
+        <Button x:Name="Convertible" Text="Caracteristicas"
+                Clicked="Convertible_Clicked"/>
+        <Button x:Name="InfConvertible" Text="Informacion"
+                Clicked="infconvertible_Clicked"/>
+
+        <Label 
+            Text="Camioneta:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" />
+        <Button x:Name="Camioneta" Text="Caracteristicas"
+                Clicked="Camioneta_Clicked"/>
+        <Button x:Name="InfCamioneta" Text="Informacion"
+                Clicked="infcamioneta_Clicked"/>
+
+        <Label 
+            Text="CuatroporCuatro:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" />
+        <Button x:Name="CuatroporCuatro" Text="Caracteristicas"
+                Clicked="CuatroporCuatro_Clicked"/>
+        <Button x:Name="InfCuatroporCuatro" Text="Informacion"
+                Clicked="InfCuatroporCuatro_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
